@@ -17,6 +17,9 @@ __pycache__/
 *.fdb_latexmk
 *.synctex.gz
 
+# Loose root screenshots
+Screenshot*.png
+
 # IDE and OS metadata
 .vscode/
 .idea/

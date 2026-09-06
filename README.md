@@ -8,6 +8,10 @@
 
 **NeuroDrishti** is an integrated hands-free assistive technology ecosystem designed to empower individuals with severe motor disabilities (such as ALS, quadriplegia, or spinal cord injuries). By fusing real-time computer vision, eye-tracking, head-gesture translation, micro-controller robotics, and IoT home automation, NeuroDrishti provides independent mobility, verbal communication, and environmental control through non-invasive facial gestures.
 
+<p align="center">
+  <img src="assets/dashboard_preview.png" alt="NeuroDrishti Control Panel Interface" width="850">
+</p>
+
 ---
 
 ## 🌟 Key Features
@@ -103,12 +107,14 @@ flowchart TD
 
 ```
 NeuroDristi/
-├── neurodristi.py         # Main Python application (CV, Eye Tracking, GUI, AAC, HTTP client)
-├── Wheel_chair.ino        # ESP32 firmware for wheelchair motor control & safety sensors
-├── home_control.ino       # ESP32 firmware for smart home automation node
-├── requirements.txt       # Python package dependencies
-├── .gitignore             # Git ignore rules for build artifacts
-└── README.md              # Project documentation
+├── assets/
+│   └── dashboard_preview.png # Application GUI screenshot preview
+├── neurodristi.py            # Main Python application (CV, Eye Tracking, GUI, AAC, HTTP client)
+├── Wheel_chair.ino           # ESP32 firmware for wheelchair motor control & safety sensors
+├── home_control.ino          # ESP32 firmware for smart home automation node
+├── requirements.txt          # Python package dependencies
+├── .gitignore                # Git ignore rules for build artifacts
+└── README.md                 # Project documentation
 ```
 
 ---
